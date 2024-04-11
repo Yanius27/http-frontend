@@ -1,0 +1,188 @@
+body {
+  width: 100vh;  
+  margin: auto;
+}
+
+body::after {
+  content: "";
+  background-image: url(79c7a0cdeb6a77f4a586.jpg);
+  background-size: 1900px;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  margin-top: 20px;
+  position: relative;
+}
+
+.popup {
+  width: 350px;
+  flex-direction: column;
+  gap: 15px;
+
+  position: absolute;
+  right: 0;
+  left: 0;
+
+  border: 1px solid black;
+  border-radius: 15px;
+
+  margin: auto;
+  margin-top: 150px;
+
+  background: white;
+  padding: 15px;
+}
+
+.popup_title {
+  align-self: center;
+}
+
+.popup_label {
+  display: flex;
+  flex-direction: column;
+  
+  gap: 10px;
+}
+
+.popup_input {
+  padding: 5px;
+}
+
+.popup_textarea {
+  height: 50px;
+  resize: none;
+  padding: 5px;
+}
+
+.popup_label-span {
+  align-self: flex-start;
+}
+
+.popup_btnContainer {
+  display: flex;
+  justify-content: end;
+
+  gap: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+button {
+  font-size: 17px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px 22px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.field_addBtn {
+  align-self: flex-end;
+}
+
+.field_ticketsContainer {
+  margin-top: 25px;
+}
+
+.ticket {
+  width: 96%;
+  border: 1px solid black;
+  background: white;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px 15px 10px 10px;
+
+  font-size: 18px;
+}
+
+.ticket_body {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: default;
+}
+
+.ticket_progressBtn-active {
+  background-image: url(59d1508359e84c235381.png);
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ticket_nameAndDateContainer {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+
+  margin-right: 25px;
+}
+
+.ticket_editBtn {
+  background-image: url(8efbbb3738e2d14c49b0.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  transform: rotate(270deg);
+}
+
+.ticket_deleteBtn {
+  background-image: url(7fb94a48fdb2cce7362a.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ticket_icon {
+  width: 30px;
+  height: 30px;
+
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.ticket_Description {
+  width: 40%;
+
+  padding-left: 37px;
+  line-height: 0.5;
+}
+
+.errorContainer {
+  width: 200px;
+  position: absolute;
+  top: 283px;
+  left: calc(350px / 2 - 200px / 2);
+
+  border: 1px solid red;
+  border-radius: 5px;
+
+  text-align: center;
+  font-size: 18px;
+
+  background: white;
+
+  padding: 2px;
+}
+
+/*# sourceMappingURL=main.css.map*/
